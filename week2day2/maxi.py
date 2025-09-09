@@ -1,0 +1,5 @@
+list_a=list(map(int,input().split()))
+maximum1=max(list_a)
+list_a.remove(maximum1)
+maximum2=max(list_a)
+print(maximum2)
